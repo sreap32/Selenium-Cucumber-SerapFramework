@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-11T04:51:40.712Z",
+        "start_timestamp": "2021-05-11T05:08:24.097Z",
         "line": 5,
         "name": "Verify new customer added successfully",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3154000000,
+              "duration": 4626000000,
               "status": "passed"
             },
             "line": 6,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 2930000000,
+              "duration": 2684000000,
               "status": "passed"
             },
             "line": 7,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 1052000000,
+              "duration": 1054000000,
               "status": "passed"
             },
             "line": 8,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 2334000000,
+              "duration": 2306000000,
               "status": "passed"
             },
             "line": 9,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 46000000,
+              "duration": 35000000,
               "status": "passed"
             },
             "line": 10,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 12376000000,
+              "duration": 12747000000,
               "status": "passed"
             },
             "line": 11,
@@ -145,7 +145,7 @@
               {
                 "cells": [
                   "E-mail",
-                  "james_brown277678@hotmail.com"
+                  "james_brown2778@hotmail.com"
                 ]
               },
               {
@@ -159,7 +159,7 @@
           },
           {
             "result": {
-              "duration": 46000000,
+              "duration": 23000000,
               "status": "passed"
             },
             "line": 22,

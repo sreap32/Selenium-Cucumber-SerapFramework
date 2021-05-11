@@ -17,6 +17,6 @@ Feature: Task2
     |DateofBirth   |07/19/1988 |
     |PIN           |123456       |
     |Mobile Number |12312312   |
-    |E-mail        |james_brown277678@hotmail.com|
+    |E-mail        |james_brown2778@hotmail.com|
     |Password      |5680|
   And The user wants to verify message as "Customer Registered Successfully!!!"
