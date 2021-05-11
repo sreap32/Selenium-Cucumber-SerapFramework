@@ -5,11 +5,8 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
-import org.testng.Assert;
-import org.testng.annotations.Test;
 import Homework.pages.AddressBookHome;
 import Homework.pages.AddressBookLogin;
 import Homework.pages.AddressBookNewAddresses;
@@ -19,15 +16,15 @@ import Homework.utils.PropertiesReading;
 
 import java.util.Map;
 
-public class MyStepdefs {
+public class AddressbookStepsDefinitions {
     AddressBookLogin loginPage = new AddressBookLogin();
     AddressBookHome homePage = new AddressBookHome();
     AddressBookNewAddresses newAddressesPage = new AddressBookNewAddresses();
     AddressCreate  newAddressCreatePage  = new AddressCreate();
 
-    @Test
 
-@Given("The user wants to Address Book")
+
+    @Given("The user wants to Address Book")
     public void theUserWantsToAddressBook() {
 
        // driver.get("http://a.testaddressbook.com/");

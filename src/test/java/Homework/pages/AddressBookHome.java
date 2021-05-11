@@ -7,8 +7,7 @@ import Homework.utils.BasePage;
 public class AddressBookHome extends BasePage {
 
 
-    @FindBy(xpath = "//a[contains(text(),'Home')]")
-    private WebElement homeButton;
+
 
     @FindBy(xpath = "//a[.='Addresses']")
     private WebElement addressesButton;
@@ -17,7 +16,7 @@ public class AddressBookHome extends BasePage {
     private WebElement signOutButton;
 
 
-    public void clickHomeButton() {homeButton.click();}
+
     public void clickAddressesButton() {addressesButton.click();}
     public void clickSignOutButton() {
         signOutButton.click();
