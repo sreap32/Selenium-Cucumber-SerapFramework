@@ -1,0 +1,193 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-11T04:51:40.712Z",
+        "line": 5,
+        "name": "Verify new customer added successfully",
+        "description": "",
+        "id": "task2;verify-new-customer-added-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3154000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user wants to check in login page text \"Guru99 Bank\" is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Guru99 Bank\"",
+                  "offset": 43
+                }
+              ],
+              "location": "Homework.stepsDefinitions.Guru99StepsDefinitions.theUserWantsToCheckInLoginPageTextIsPresent(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2930000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user wants to login into application with given credentials",
+            "match": {
+              "location": "Homework.stepsDefinitions.Guru99StepsDefinitions.theUserWantsToLoginIntoApplicationWithGivenCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1052000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user wants to verify  that the Home page contains text as \"Manger Id: mngr323344\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manger Id: mngr323344\"",
+                  "offset": 62
+                }
+              ],
+              "location": "Homework.stepsDefinitions.Guru99StepsDefinitions.theUserWantsToVerifyThatTheHomePageContainsTextAs(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2334000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user wants to  Click on new customer button",
+            "match": {
+              "location": "Homework.stepsDefinitions.Guru99StepsDefinitions.theUserWantsToClickOnNewCustomerButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user wants to verify you are in New Customer Entry Page",
+            "match": {
+              "location": "Homework.stepsDefinitions.Guru99StepsDefinitions.theUserWantsToVerifyYouAreInNewCustomerEntryPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12376000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The user wants to Fill the information for new customer details",
+            "match": {
+              "location": "Homework.stepsDefinitions.Guru99StepsDefinitions.theUserWantsToFillTheInformationForNewCustomerDetails(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Customer Name",
+                  "James Brown"
+                ]
+              },
+              {
+                "cells": [
+                  "Gender",
+                  "Male"
+                ]
+              },
+              {
+                "cells": [
+                  "Address",
+                  "123 noway"
+                ]
+              },
+              {
+                "cells": [
+                  "City",
+                  "Kenwood"
+                ]
+              },
+              {
+                "cells": [
+                  "State",
+                  "Texas"
+                ]
+              },
+              {
+                "cells": [
+                  "DateofBirth",
+                  "07/19/1988"
+                ]
+              },
+              {
+                "cells": [
+                  "PIN",
+                  "123456"
+                ]
+              },
+              {
+                "cells": [
+                  "Mobile Number",
+                  "12312312"
+                ]
+              },
+              {
+                "cells": [
+                  "E-mail",
+                  "james_brown277678@hotmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "5680"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "The user wants to verify message as \"Customer Registered Successfully!!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Customer Registered Successfully!!!\"",
+                  "offset": 36
+                }
+              ],
+              "location": "Homework.stepsDefinitions.Guru99StepsDefinitions.theUserWantsToVerifyMessageAs(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      }
+    ],
+    "name": "Task2",
+    "description": "",
+    "id": "task2",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Guru99.feature",
+    "tags": []
+  }
+]
